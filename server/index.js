@@ -42,7 +42,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.status(200).json({message:"Mamosh backend server is running"});
+    res.status(200).json({message:"Horism backend server is running"});
 })
 app.listen(PORT, () => console.log(`Listening on PORT:`, PORT));
 app.use(cors({ origin: "*" }));
